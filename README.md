@@ -1,6 +1,6 @@
 # Simple HF Power Output Stage for rpitx using the IXDN602PI
 
-**For use by licensed amateur radio operators only. You are solely responsible for ensuring that construction, operation, RF emissions, spectral purity, power levels, and RF exposure comply with all applicable laws and regulations. Use this project entirely at your own risk.**
+**This is an experimental amateur-radio project provided for educational purposes and without warranty. Anyone building or operating it is responsible for verifying the circuit, ensuring adequate filtering and complying with applicable radio regulations. Use at your own risk. Transmission must only be performed where and by persons appropriately authorized under the applicable radio regulations.**
 
 This is a very simple and very cheap HF power output stage for [`rpitx`](https://github.com/F5OEO/rpitx) on a Raspberry Pi.
 
