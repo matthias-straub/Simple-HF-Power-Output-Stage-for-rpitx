@@ -13,22 +13,15 @@ The circuit contains only simple parts, no RF transformer, no bias network and n
 ## Circuit
 
 ```text
-Raspberry Pi GPIO4
-        |
-       10R
-        |
-        +---------------- INA (pin 2)
-                         IXDN602PI
-                    +----------------+
-                    |                |
-             GND ---| 3          6   |--- +18 V
-                    |                |
-GPIO4 -> 10R -------| 2 INA      7   |--- OUTA
-                    |                |
-             GND ---| 4 INB      5   |--- OUTB (unused)
-                    |                |
-                    | 1 NC       8 NC|
-                    +----------------+
+GPIO4 ───── INA   Pin 2
+
+              IXDN602PI
+          +---------------+
+NC    1 --|               |-- 8 NC
+INA   2 --|               |-- 7 OUTA ---- 1 Ω ---- 100 nF ----> LPF
+GND   3 --|               |-- 6 VCC
+INB   4 --|               |-- 5 OUTB
+          +---------------+
 
 OUTA (pin 7)
      |
@@ -229,8 +222,6 @@ At the same supply voltage, the IC drew substantially more current and became ho
 For this application, a **single channel works better**.
 
 ## Layout matters
-
-The first prototype was built on a breadboard. It worked, but transferring the circuit to a soldered board reduced the supply current by roughly 10% at the same supply voltage.
 
 For best results:
 
