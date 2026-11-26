@@ -1,12 +1,14 @@
 # Simple HF Power Output Stage for rpitx using the IXDN602PI
 
+** this is only for licensed radio amateurs **
+
 This is a very simple **HF power output stage for rpitx** on a Raspberry Pi.
 
 The idea is slightly unconventional: instead of building a traditional RF power amplifier, an **IXDN602PI MOSFET gate driver** is used directly as the final RF output stage.
 
 In my build it works very well at **7 MHz and 14 MHz**. With an **18 V supply** I get approximately **0.5 W RF output** in my setup.
 
-The circuit contains no RF transformer, no bias network and no RF choke.
+The circuit contains only simple parts, no RF transformer, no bias network and no RF choke.
 
 ## Circuit
 
