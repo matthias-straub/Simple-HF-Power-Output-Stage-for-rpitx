@@ -8,7 +8,7 @@ The idea is slightly unconventional: instead of building a traditional RF power 
 
 In my build it works very well at **7 MHz and 14 MHz**. With an **18 V supply** I get approximately **0.5 W RF output** in my setup. This is a significant boost over the 10mW to expect from the Pi alone.
 
-I use this successfully with my JS8 implementation  [`js8pitx`](https://github.com/matthias-straub/js8pitx) into a dipole for 20m and easily reach USA and Australia from Europe. 
+I use this successfully with my JS8 implementation  [`js8pitx`](https://github.com/matthias-straub/js8pitx) into a dipole for 20m and can easily reach USA and Australia from Europe. 
 
 The circuit contains only simple parts, no RF transformer, no bias network and no RF choke.
 
