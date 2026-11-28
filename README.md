@@ -4,7 +4,7 @@
 
 This is a very simple and very cheap HF power output stage for [`rpitx`](https://github.com/F5OEO/rpitx) on a Raspberry Pi.
 
-The idea is slightly unconventional: instead of building a traditional RF power amplifier, an **IXDN602PI MOSFET gate driver** is used directly as the final RF output stage.
+The idea is slightly unconventional: instead of building a traditional RF power amplifier, an **IXDN602PI MOSFET gate driver** by Littlefuse is used directly as the final RF output stage.
 
 In my build it works very well at **7 MHz and 14 MHz**. With an **18 V supply** I get approximately **0.5 W RF output** in my setup. This is a significant boost over the 10mW to expect from the Pi alone.
 
